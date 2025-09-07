@@ -1,0 +1,24 @@
+/target
+/# Build artifacts
+/debug/
+
+# Rust/Cargo backups
+**/*.rs.bk
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.swp
+*.swo
+
+# By convention, Cargo.lock is committed for binaries.
+# If this were a library crate, you might ignore it.
+# Cargo.lock
